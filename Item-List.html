@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item list page</title>
+     <style>
+      
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./style_home_page.css" >
+    <link rel="stylesheet" href="./styles_item_list.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<div class="review-popup">
+  <div class="popup-icon">
+    <i class="fa-solid fa-star"></i>
+  </div>
+
+  <div class="popup-content">
+    <div class="popup-title">New review just posted</div>
+    <div class="popup-text">
+      “Amazing location and super friendly staff!”
+    </div>
+    <div class="popup-author">– Daniel, 2 hours ago</div>
+  </div>
+
+  <div class="popup-close">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+</div>
+
+    
+</head>
+<body>
+     <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html"><span>⌂</span> Home</a></li>
+            <li><a href="#"><span>⚙️</span> Settings</a></li>
+            <li><a href="#"><span>ⓘ</span> About</a></li>
+            <li><a href="#"><span>❓</span></span>Help</a></li>
+        </ul>
+        <div class="nav-logo">
+            <img src="./pictures/image.png" alt="Logo" height="50">
+        </div>
+    </nav>
+   
+     <main>
+        <div class="results-header">
+            <h2 class="results-title">Hotels 
+            <span class="arrow">›</span> 
+            <span class="current-location">Eilat</span>
+            <span class="arrow">›</span> 
+            <span class="results-count-inline">256 properties found</span>
+        </h2>
+    </div>
+
+
+        
+
+        <div class="page-container"> 
+        <div class="filters-sidebar">
+        <div class="action-bar">
+            <div class="add-review-wrapper">
+                <a href="review form.html"> <button class="btn-add">+</button ><h3 class="action-title">Add Review</h3></a>   
+            </div>
+            <div class="search-container">
+                <input class="search-input" type="text" placeholder="search a place">
+            </div>
+        </div>
+        <h3 class="sidebar-title">Find Your Perfect Stay</h3>
+        <ul class="filters-list">
+            <li>Location:</li>
+            <input type="checkbox"><label for="North">North District</label><br>
+            <input type="checkbox"><label for="Sharon">Sharon</label><br>
+            <input type="checkbox"><label for="Center">Center District</label><br>
+            <input type="checkbox"><label for="Jerousalem">Jerousalem</label><br>  
+            <input type="checkbox"><label for="South">South District</label><br><br>
+            <li>Stay Place:</li>
+            <input type="checkbox"><label for="hotels">Hotels</label><br>
+            <input type="checkbox"><label for="hotels">B&B's</label><br>
+            <input type="checkbox"><label for="hotels">Boutique Hotels</label><br>
+            <input type="checkbox"><label for="hotels">Guests houses</label><br>
+            <input type="checkbox"><label for="hotels">Villas</label><br><br>
+            <li>Vacation Style:</li>
+            <input type="checkbox"><label for="urban">Urban</label><br>
+            <input type="checkbox"><label for="beach Getaway">Beach Getaway</label><br>
+            <input type="checkbox"><label for="nature">Nature</label><br>
+            <input type="checkbox"><label for="romantic">Romantic</label><br>
+            <input type="checkbox"><label for="family friendly">Family Friendly</label><br><br>
+            <li>Meal Plans:</li>
+            <input type="checkbox"><label for="Breakfast Included">Breakfast Included</label><br>
+            <input type="checkbox"><label for="Half Board">Half Board</label><br>
+            <input type="checkbox"><label for="Full Board">Full Board</label><br>
+            <input type="checkbox"><label for="All-Inclusive">All-Inclusive</label><br>
+            <input type="checkbox"><label for="Self-Catering">Self-Catering</label><br><br>
+            <a href="Item-List.html"><button class="btn-apply">Apply Filters</button></a>
+        </ul>
+    </div>
+    
+    <section class="hotels-list main-content">
+
+  <!-- 1 -->
+  <article class="hotel-card">
+    <div class="hotel-media">
+      <i class="fa-regular fa-heart heart-icon"></i>
+      <img src="./pictures/megicpalace eilat.jpg" alt="Magic Palace">
+    </div>
+
+    <div class="hotel-meta">
+      <h3 class="hotel-title">Magic Palace <span class="stars">★★★★☆</span></h3>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Eilat · 0.8m from center</span>
+      </div>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-umbrella-beach"></i>
+        <span>600m from the beach</span>
+      </div>
+
+      <a class="map-link" href="https://www.google.com/maps/place/%D7%9E%D7%9C%D7%95%D7%9F+%D7%99%D7%95+%D7%9E%D7%92'%D7%99%D7%A7+%D7%A4%D7%90%D7%9C%D7%90%D7%A1+%D7%90%D7%99%D7%9C%D7%AA+-+U+Magic+Palace+Eilat+hotel%E2%80%AD/@29.5544201,34.9602406,17z/" target="_blank">
+        <i class="fa-solid fa-magnifying-glass-location"></i> show on map
+      </a>
+
+      <div class="mini-review">
+        <i class="fa-solid fa-quote-left"></i>
+        <span>“Perfect location, amazing pool and very clean rooms!”</span>
+        <div class="review-author">– Sarah, Jan 2026</div>
+     </div>
+    </div>
+
+    <p class="hotel-desc">
+      U Magic Palace Hotel is located right next to the north beach, overlooking the lagoon and Eilat's famous marina.
+      It is located in the hotel zone, close to Eilat's attractions.
+    </p>
+  </article>
+
+  <!-- 2 -->
+  <article class="hotel-card">
+    <div class="hotel-media">
+      <i class="fa-regular fa-heart heart-icon"></i>
+      <img src="./pictures/Herods_Palace_Eilat_pool_4_300_dpi_e3d5cb9623.jpg" alt="Herods Palace">
+    </div>
+
+    <div class="hotel-meta">
+      <h3 class="hotel-title">Herods Palace <span class="stars">★★★★★</span></h3>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Eilat · 0.8m from center</span>
+      </div>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-umbrella-beach"></i>
+        <span>Beachfront</span>
+      </div>
+
+      <a class="map-link" href="https://www.google.com/maps/place/%D7%9E%D7%9C%D7%95%D7%9F+%D7%94%D7%A8%D7%95%D7%93%D7%A1+%D7%A4%D7%90%D7%9C%D7%90%D7%A1+%D7%90%D7%99%D7%9C%D7%AA+-+Herods+Palace+Eilat+hotel%E2%80%AD/@29.5486038,34.9670329,17z/" target="_blank">
+        <i class="fa-solid fa-magnifying-glass-location"></i> show on map
+      </a>
+
+      <div class="mini-review">
+         <i class="fa-solid fa-quote-left"></i>
+        <span>“Great breakfast, clean rooms and perfect location near everything.”</span>
+      <div class="review-author">– Maya, Dec 2025</div>
+      </div>
+
+    </div>
+
+    <p class="hotel-desc">
+      Offering modern and spacious rooms with sea or mountain views, Herods Palace Hotel & Spa is located on the seafront.
+      It features a large pool area and spa.
+    </p>
+  </article>
+
+  <!-- 3 -->
+  <article class="hotel-card">
+    <div class="hotel-media">
+      <i class="fa-regular fa-heart heart-icon"></i>
+      <img src="./pictures/orchid-eilat-hotel-and.jpg" alt="Orchid Hotel">
+    </div>
+
+    <div class="hotel-meta">
+      <h3 class="hotel-title">Orchid Hotel <span class="stars">★★★★☆</span></h3>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Eilat · 0.8m from center</span>
+      </div>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-umbrella-beach"></i>
+        <span>200m from the beach</span>
+      </div>
+
+      <a class="map-link" href="https://www.google.com/maps/place/%D7%90%D7%95%D7%A8%D7%9B%D7%99%D7%93%D7%90%D7%94+%D7%90%D7%99%D7%9C%D7%AA%E2%80%AD/@29.5058975,34.9175224,17z/" target="_blank">
+        <i class="fa-solid fa-magnifying-glass-location"></i> show on map
+      </a>
+
+      <div class="mini-review">
+        <i class="fa-solid fa-quote-left"></i>
+        <span>“Beautiful sea view and super friendly staff. We’ll definitely come back!”</span>
+      <div class="review-author">– Daniel, Feb 2026</div>
+    </div>
+
+    </div>
+
+    <p class="hotel-desc">
+      Orchid Hotel is a Thai-style resort located on a coral beach on the Red Sea. It offers gourmet cuisine and a spa.
+      The hotel features an outdoor pool and a separate children's pool.
+    </p>
+  </article>
+
+  <!-- 4 -->
+  <article class="hotel-card">
+    <div class="hotel-media">
+      <i class="fa-regular fa-heart heart-icon"></i>
+      <img src="./pictures/dan-eilat.jpg" alt="Dan Hotel">
+    </div>
+
+    <div class="hotel-meta">
+      <h3 class="hotel-title">Dan Hotel <span class="stars">★★★★★</span></h3>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Eilat · 0.8m from center</span>
+      </div>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-umbrella-beach"></i>
+        <span>Beachfront</span>
+      </div>
+
+      <a class="map-link" href="https://www.google.com/maps/place/%D7%93%D7%9F+%D7%90%D7%99%D7%9C%D7%AA%E2%80%AD/@29.5487917,34.9652392,17z/" target="_blank">
+        <i class="fa-solid fa-magnifying-glass-location"></i> show on map
+      </a>
+
+      <div class="mini-review">
+        <i class="fa-solid fa-quote-left"></i>
+        <span>“Amazing atmosphere, relaxing pool area and excellent service.”</span>
+        <div class="review-author">– Tom, Jan 2026</div>
+      </div>
+
+    </div>
+
+    <p class="hotel-desc">
+      Dan Eilat Hotel offers luxurious rooms with a balcony overlooking the sea or the swimming pool area, plus free Wi-Fi.
+    </p>
+  </article>
+
+  <!-- 5 -->
+  <article class="hotel-card">
+    <div class="hotel-media">
+      <i class="fa-regular fa-heart heart-icon"></i>
+      <img src="./pictures/Aria_Hotel.webp" alt="Aria Hotel">
+    </div>
+
+    <div class="hotel-meta">
+      <h3 class="hotel-title">Aria Hotel <span class="stars">★★★★★</span></h3>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Eilat · 0.8m from center</span>
+      </div>
+
+      <div class="hotel-row">
+        <i class="fa-solid fa-umbrella-beach"></i>
+        <span>500m from the beach</span>
+      </div>
+
+      <a class="map-link" href="https://www.google.com/maps/search/Aria+Hotel+Eilat/" target="_blank">
+        <i class="fa-solid fa-magnifying-glass-location"></i> show on map
+      </a>
+
+      <div class="mini-review">
+       <i class="fa-solid fa-quote-left"></i>
+       <span>“Spacious rooms and very comfortable beds. Perfect for a family vacation!”</span>
+      <div class="review-author">– Lior, Mar 2026</div>
+      </div>
+
+    </div>
+
+    <p class="hotel-desc">
+      Located right by the Red Sea, close to Eilat Mall and Promenade, Aria Hotel offers suites with free Wi-Fi and balcony.
+    </p>
+  </article>
+
+</section>
+
+
+    <div class="filters-sidebar" style="margin-top: 50px;">
+                <h3 class="sidebar-title">More Filters</h3>
+                <ul class="filters-list">
+                        <li>Star Rating</li>
+                        <input type="checkbox" id="star5"><label for="star5">★★★★★</label><br>
+                        <input type="checkbox" id="star4"><label for="star4">★★★★☆</label><br>
+                        <input type="checkbox" id="star3"><label for="star3">★★★☆☆</label><br>
+                        <input type="checkbox" id="star2"><label for="star2">★★☆☆☆</label><br>
+                        <input type="checkbox" id="star1"><label for="star1">★☆☆☆☆</label><br><br>
+                        <li>Price Range</li>
+                        <input type="range" min="0" max="1000" value="500" class="slider" id="priceRange" style="width: 100%;" oninput="document.getElementById('priceValue').innerText = this.value">
+                        <p>Max Price: $<span id="priceValue">500</span></p><br>
+                        <li>Accessibility</li>
+                        <input type="checkbox" id="acc_wheel"><label for="acc_wheel">Wheelchair Access</label><br>
+                        <input type="checkbox" id="acc_elevator"><label for="acc_elevator">Elevator</label><br><br>
+                        <li>Facilities</li>
+                        <input type="checkbox" id="prop_pool"><label for="prop_pool">Pool</label><br>
+                        <input type="checkbox" id="prop_spa"><label for="prop_spa">Spa</label><br>
+                        <input type="checkbox" id="prop_gym"><label for="prop_gym">Gym</label><br>
+                        <input type="checkbox" id="prop_wifi"><label for="prop_wifi">Free Wi-Fi</label><br>
+                        <input type="checkbox" id="prop_parking"><label for="prop_parking">Parking</label><br>
+                        <br><a href="Item-List.html"><button class="btn-apply">Apply Filters</button></a>
+                </ul>
+        </div>
+    </main>
+    <script src="script_item_list.js"></script>
+</body>
+</html>

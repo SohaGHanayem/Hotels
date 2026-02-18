@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_home_page.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="home.html"><button class="btn-home"><img src="./images/home_logo.png" height="25" width="25"></button>Home</a></li>
+            <li><a href="#"><button class="btn-about"><img src="./images/about_logo.png" height="28" width="25"></button>About</a></li>
+            <li><a href="#"><button class="btn-help"><img src="./images/help_logo.png" height="28" width="25"></button>Help</a></li>
+            <li><a href="#"><button class="btn-setting"><img src="./images/setting_logo.png" height="40" width="43"></button>Settings</a></li>
+        </ul>
+        <img src="./images/logo_reviewr.png" alt="Logo" height="50">
+    </nav>
+    <main>  
+    <div class="hero-wrapper">
+    <div class="hero-section">
+        <h1 class="hero-title">REVIEWR</h1>
+        <h2 class="hero-subtitle">Welcome! This is your go-to spot for genuine, authentic reviews. Research, compare, and choose wisely to ensure your perfect getaway</h2>
+    </div>
+    </div>
+    <div class="page-container">
+    <div class="filters-sidebar">
+        <div class="action-bar">
+            <div class="add-review-wrapper">
+                <a href="review form.html"> <button class="btn-add">+</button ><h3 class="action-title">Add Review</h3></a>   
+            </div>
+            <div class="search-container">
+                <input class="search-input" type="text" placeholder="search a place">
+            </div>
+        </div>
+        <h3 class="sidebar-title">Find Your Perfect Stay</h3>
+        <ul class="filters-list">
+            <li>Location:</li>
+            <input type="checkbox"><label for="North">North District</label><br>
+            <input type="checkbox"><label for="Sharon">Sharon</label><br>
+            <input type="checkbox"><label for="Center">Center District</label><br>
+            <input type="checkbox"><label for="Jerousalem">Jerousalem</label><br>  
+            <input type="checkbox"><label for="South">South District</label><br><br>
+            <li>Stay Place:</li>
+            <input type="checkbox"><label for="hotels">Hotels</label><br>
+            <input type="checkbox"><label for="hotels">B&B's</label><br>
+            <input type="checkbox"><label for="hotels">Boutique Hotels</label><br>
+            <input type="checkbox"><label for="hotels">Guests houses</label><br>
+            <input type="checkbox"><label for="hotels">Villas</label><br><br>
+            <li>Vacation Style:</li>
+            <input type="checkbox"><label for="urban">Urban</label><br>
+            <input type="checkbox"><label for="beach Getaway">Beach Getaway</label><br>
+            <input type="checkbox"><label for="nature">Nature</label><br>
+            <input type="checkbox"><label for="romantic">Romantic</label><br>
+            <input type="checkbox"><label for="family friendly">Family Friendly</label><br><br>
+            <li>Meal Plans:</li>
+            <input type="checkbox"><label for="Breakfast Included">Breakfast Included</label><br>
+            <input type="checkbox"><label for="Half Board">Half Board</label><br>
+            <input type="checkbox"><label for="Full Board">Full Board</label><br>
+            <input type="checkbox"><label for="All-Inclusive">All-Inclusive</label><br>
+            <input type="checkbox"><label for="Self-Catering">Self-Catering</label><br><br>
+            <a href="Item-List.html"><button class="btn-apply">Apply Filters</button></a>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h2 class="section-title">Top Rated</h2>
+    <div class="reviews-grid">
+        <div class="review-card">
+            <h3>Crown Eilat</h3>
+            <img class="card-image" src="./images/crown_eilat_hotel.jpg" height="150" width="250"><br>
+            <p>Location: Eilat, Israel, 005897114</p>
+            <p>Rating: <span class="stars">★★★★★</span></p>
+            <p>Cleaning Rate: <span class="stars">★★★★★</span></p>
+            <p>Service Rate: <span class="stars">★★★★★</span></p>
+            <p class="review-text">Sarah Miller: "The room was spotless and the staff was incredibly helpful."</p>
+            <p class="review-text">Maya Cohen: "An <strong>absolute dream! </strong> The service was impeccable, and the view from the balcony was breathtaking. Perfect for a relaxing weekend getaway. Highly recommended for families!"</p>
+            <p>see more...</p>
+            <a href="item-details.html"><button class="btn-details">press here for more info</button></a>
+        </div>
+        <br><br><br>
+        <div class="review-card">
+            <h3>Caesarea Resort</h3>
+            <img class="card-image" src="./images/hotel_2.jfif" height="150" width="250">
+            <p>Location: Caesarea, Israel, 00584123</p>
+            <p>Rating: <span class="stars">★★★★</span></p>
+            <p>Cleaning Rate: <span class="stars">★★★★☆</span></p>
+            <p>Service Rate: <span class="stars">★★★★★</span></p>
+            <p class="review-text">"<strong>Great service</strong>, but the bathroom could have been cleaner."</p>
+            <p>see more...</p>
+            <a href="item-details.html"><button class="btn-details">press here for more info</button></a>
+        </div>
+        <br><br><br>
+        <div class="review-card">
+            <h3>Sharon's Villa</h3>
+            <img class="card-image" src="./images/villa_1.jpg" height="150" width="250">
+            <p>Location: Hod Hasharon, Israel, 00584123</p>
+            <p>Rating: <span class="stars">★★★★★</span></p>
+            <p>Cleaning Rate: <span class="stars">★★★★★</span></p>
+            <p>Service Rate: <span class="stars">★★★★☆</span></p>
+            <p class="review-text">"Amazing villa with beautiful views. <strong>Highly recommended!</strong>"</p>
+            <p>see more...</p>
+            <a href="item-details.html"><button class="btn-details">press here for more info</button></a>
+        </div>
+        <br><br><br>
+        <div class="review-card">
+            <h3>Aria Eilat</h3>
+            <img src="./images/hotel_3.jpg" height="150" width="250">
+            <p>Location: Eilat, Israel, 00584123</p>
+            <p>Rating: <span class="stars">★★★★★</span></p>
+            <p>Cleaning Rate: <span class="stars">★★★★★</span></p>
+            <p>Service Rate: <span class="stars">★★★★★</span></p>
+            <p class="review-text">"<strong>Perfect vacation spot</strong>. Everything was top notch."</p>
+            <p>see more...</p>
+            <a href="item-details.html"><button class="btn-details">press here for more info</button></a>
+        </div>
+        <br><br><br>
+        <div class="review-card">
+             <h3>Amirim Boutique B&B</h3>
+             <img src="./images/B&B_amirim.jpg" height="150" width="250">
+            <p>Location: Amirim, Israel, 009871200</p>
+            <p>Rating: <span class="stars">★★★★</span></p>
+            <p>Cleaning Rate: <span class="stars">★★★★☆</span></p>
+            <p>Service Rate: <span class="stars">★★★★☆</span></p>
+            <p class="review-text">"The most romantic boutique hotel we've ever stayed at. The attention to detail is amazing, and the <strong>atmosphere</strong> is so <strong>peaceful</strong>. We will definitely be back!"</p>
+            <p>see more...</p>
+            <a href="item-details.html"><button class="btn-details">press here for more info</button></a>
+        </div>
+    </div>
+    </div>
+    </div>
+    </main>
+</body>
+</html>

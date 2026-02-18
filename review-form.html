@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style_home_page.css" />
+
+  <link rel="stylesheet" href="Review_form.css" />
+</head>
+
+<body>
+  <div class="headline">
+    <h1>Share with us</h1>
+  </div>
+
+  <main class="panel">
+
+ 
+<div class="hotel-picker">
+  <label for="hotelSelect"><b>Choose hotel:</b></label>
+  <select id="hotelSelect">
+    <option value="" selected disabled>-- Select an hotel --</option>
+    <option value="royal_beach">Aria Eilat</option>
+    <option value="hilton_tlv">Hilton TLV</option>
+    <option value="dan_tel_aviv">Dan Tel Aviv</option>
+    <option value="isrotel_king">Isrotel King Solomon</option>
+  </select>
+</div>
+
+    <fieldset>
+      <legend><h4>Cleanliness:</h4></legend>
+      <div class="stars">
+        <input type="radio" id="clean-5" name="cleanliness" value="5"><label for="clean-5">★</label>
+        <input type="radio" id="clean-4" name="cleanliness" value="4"><label for="clean-4">★</label>
+        <input type="radio" id="clean-3" name="cleanliness" value="3"><label for="clean-3">★</label>
+        <input type="radio" id="clean-2" name="cleanliness" value="2"><label for="clean-2">★</label>
+        <input type="radio" id="clean-1" name="cleanliness" value="1"><label for="clean-1">★</label>
+      </div>
+    </fieldset>
+
+    
+    <fieldset>
+      <legend><h4>Service:</h4></legend>
+      <div class="stars">
+        <input type="radio" id="service-5" name="service" value="5"><label for="service-5">★</label>
+        <input type="radio" id="service-4" name="service" value="4"><label for="service-4">★</label>
+        <input type="radio" id="service-3" name="service" value="3"><label for="service-3">★</label>
+        <input type="radio" id="service-2" name="service" value="2"><label for="service-2">★</label>
+        <input type="radio" id="service-1" name="service" value="1"><label for="service-1">★</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend><h4>Overall Experience:</h4></legend>
+
+      <textarea name="overall_review" placeholder="Add your review here…"></textarea>
+
+      <div class="stars">
+        <input type="radio" id="overall-5" name="overall" value="5"><label for="overall-5">★</label>
+        <input type="radio" id="overall-4" name="overall" value="4"><label for="overall-4">★</label>
+        <input type="radio" id="overall-3" name="overall" value="3"><label for="overall-3">★</label>
+        <input type="radio" id="overall-2" name="overall" value="2"><label for="overall-2">★</label>
+        <input type="radio" id="overall-1" name="overall" value="1"><label for="overall-1">★</label>
+      </div>
+    </fieldset>
+
+    <div class="button-row">
+<button type="button" class="save-btn" id="saveReviewBtn">Save review</button>
+    </div>
+  </main>
+  <script src="Review_form.js"></script>
+</body>
+</html>
+

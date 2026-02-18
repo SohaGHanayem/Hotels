@@ -1,0 +1,8 @@
+item details.html
+item-details.html
+desktop.ini
+Thumbs.db
+.DS_Store
+.vscode/
+node_modules/
+*.log
